@@ -11,9 +11,7 @@ class _AboutScreenState extends State<AboutScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title:  const Text("ABOUTSCREEN"),
-      centerTitle: true,
-      ),
-      );
+      appBar: AppBar(title: const Text("About")),
+    );
   }
 }
